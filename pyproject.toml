@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "solar-advisor-mcp"
 version = "0.1.0"
 description = "MCP server wrapping the Solar Advisor LangGraph agent (solar-advisor.danhle.net). Exposes solar-economics queries as MCP tools so any MCP client (Claude Desktop, Claude Code) can drive the composite-data solar agent."
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [{name = "Danh Le"}]
 dependencies = [
@@ -36,4 +36,4 @@ testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py312"
+target-version = "py310"
